@@ -871,11 +871,7 @@ class _PinCodeTextFieldState extends State<PinCodeTextField>
                           }
                         }
                       }
-                    } else {
-                      _showPasteDialog(data!.text!);
-                    }
-                  }
-                }
+                   
                     : null,
                 child: Row(
                   mainAxisAlignment: widget.mainAxisAlignment,
